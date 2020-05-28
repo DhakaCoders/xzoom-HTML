@@ -118,6 +118,23 @@
 	-moz-transition: 0.3s all ease-out 0s;
 	-webkit-transition: 0.3s all ease-out 0s;
 }
+.nav-items-hass-submenu{
+	position: relative;
+}
+.nav-items-hass-submenu:before{
+	content: "\f106";
+	position: absolute;
+	top: 50%;
+	right: -16px;
+    margin-top: -1px;
+	transform: translateY(-50%);
+	font-family: 'FontAwesome';
+	font-weight: 700;
+	color: #8e8e8e;
+}
+.nav-items-hass-submenu:hover:before{
+	color: #0101bc;
+}
 /*.nav-items-hass-submenu{
 	position: relative;
 }
@@ -147,6 +164,7 @@
 	padding-bottom: 15px;
 	transform: scale(0,1);
 	background: #fff;
+	z-index: 2;
 }
 .js-submenu-items{
 	transform: scale(1,1);

@@ -1,0 +1,197 @@
+.banner-section{
+
+}
+.slide-items{
+	background: url('../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.slick-initialized .slick-slide{
+	display: flex;
+}
+.slide-items-innr{
+	background: #161616;
+	max-width: 51.1%;
+	width: 100%;
+	border-radius: 5px;
+	padding: 37px 15px 0 45px;
+	position: relative;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    margin-left: -520px;
+    transform: translateX(-50%);
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: #fff;
+}
+.slick-dots .slick-active{
+	background: blue;
+}
+.slick-dots li button{
+	display: none;
+}
+/* .slick-dots{
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+.slick-dots > ul > li{
+	list-style-type: none;
+	float: left;
+	height: 12px!important;
+	width: 12px!important;
+	display: inline-block;
+	background: #fff;
+	border-radius: 100%;
+}
+.slick-dots > ul > li > a{
+	text-decoration: none;
+}
+.slick-dots > ul .slick-active{
+	background: #0101bc;
+} */
+.slide-items-innr-003{
+	background: #6656be;
+}
+.slide-items-innr-002{
+	background: #36b1a0;
+}
+.slide-items-hedding h1{
+	margin-bottom: 20px;
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding-right: 135px;
+}
+.slide-items-des p{
+	padding-left: 5px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 18px;
+}
+.slide-items-see-more{
+	padding-bottom: 37px;
+	padding-left: 5px;
+}
+.slide-items-see-more a{
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	background: #0101BC;
+	text-transform: capitalize;
+	padding: 8px 68px;
+	border: #0101BC;
+	border-radius: 5px;
+}
+.department-layout-sec-three{
+
+}
+.department-layout-innr{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 112px 51px;
+}
+.department-items{
+	text-align: center;
+	max-width: 33.33%;
+	width: 100%;
+	padding: 0 31px;
+}
+.department-hedding h6{
+	margin-bottom: 0;
+	font-size: 24px;
+	margin-bottom: 8px;
+	margin-top: 14px;
+}
+.department-des p{
+	margin-bottom: 0;
+}
+
+.work-demos-innr{
+	padding-bottom: 55px;
+}
+.work-demos-hedding h2{
+	text-align: center;
+	margin-bottom: 0;
+	margin-bottom: 55px;
+}
+.work-demos-innr > ul > li{
+	max-width: 33%;
+	width: 100%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+	height: 264px;
+	float: left;
+}
+.work-demos-items{
+	position: relative;
+	background: url('../images/sec-four-img-004.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 264px;
+}
+.work-demos-items-details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 21px;
+	padding-top: 20px;
+	background: #6656be;
+	transform: scale(0,1);
+	transition: 0.3s all ease-out 0s;
+	-moz-transition: 0.3s all ease-out 0s;
+	-webkit-transition: 0.3s all ease-out 0s;
+}
+.work-demos-items:hover >.work-demos-items-details{
+	transform: scale(1,1);
+	transition: 0.3s all ease-out 0s;
+	-moz-transition: 0.3s all ease-out 0s;
+	-webkit-transition: 0.3s all ease-out 0s;
+}
+.work-demos-items-details h6{
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+	margin-bottom: 4px;
+}
+.work-demos-items-details p{
+	color: #fff;
+	margin-bottom: 0;
+}
+.work-demos-view{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.work-demos-view a{
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 9px;
+}
