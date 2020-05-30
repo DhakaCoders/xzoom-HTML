@@ -1,0 +1,13 @@
+.contact-sec-contact-sec-seven{
+	padding-top: 92px!important;
+	padding-bottom: 125px!important;
+}
+.contact-sec-des span{
+	font-size: 42px;
+	text-transform: capitalize;
+}
+.google-maps-contact-sec iframe{
+	width: 100%;
+	min-height: 670px;
+	vertical-align: bottom;
+}

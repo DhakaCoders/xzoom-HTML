@@ -183,7 +183,7 @@
 	padding-right: 9px;
 }
 .portfolio-section-sec-five{
-	padding-bottom: 90px;
+	padding-bottom: 76px;
 }
 .portfolio-section-innr{
 	padding-top: 27px;
@@ -192,7 +192,8 @@
 	text-align: center;
 }
 .portfolio-section-hedding h2{
-	margin-bottom: 55px;
+	margin-bottom: 48px;
+	text-transform: capitalize;
 }
 .portfolio-section-innr > ul{
 	margin-left: -15px;
@@ -404,7 +405,7 @@
 	margin-bottom: 38px;
 }
 .contact-form button{
-	padding: 7px 68px;
+	padding: 7px 63px;
 	background: #0101bc;
 	border: none;
 	float: right;
@@ -415,7 +416,7 @@
 	font-weight: 600;
 	cursor: pointer;
 	letter-spacing: 1px;
-	border-radius: 5px;
+	border-radius: 10px;
 	transition: 0.3s all ease-out 0s;
 	-moz-transition: 0.3s all ease-out 0s;
 	-webkit-transition: 0.3s all ease-out 0s;

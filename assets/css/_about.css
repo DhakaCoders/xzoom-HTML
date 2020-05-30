@@ -1,0 +1,56 @@
+.common-banner-sec-two{
+	background: url('../images/banner.jpg');
+	background-size: cover!important;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.common-banner-sec-innr h1{
+	text-transform: capitalize;
+}
+.our-goal-sec-three{
+	padding: 52px 0 40px 0;
+}
+.our-goal-innr{
+	padding: 0 65px;
+}
+.our-goal-expression{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.our-goal-expression p{
+}
+.our-goal-expression p:nth-child(1){
+	margin-bottom: 30px;
+}
+.our-mission{
+	width: 100%;
+	padding-bottom: 35px;
+}
+.our-mission h6{
+	font-size: 24px;
+	font-weight: 700;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+.our-mission p{
+
+}
+.our-vission{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.our-vission h6{
+	font-size: 24px;
+	font-weight: 700;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+.our-vission p{
+	
+}
